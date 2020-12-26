@@ -2,10 +2,9 @@
 
 A collection of resources that may be of use for geoscience data visualisation. 
 
-\* Denotes tools that I haven't tried yet myself. 
+\* Denotes tools that I haven't tried yet. 
 
 ## Colour
-
 - Nice article on how colour determines what we see https://eos.org/features/visualizing-science-how-color-determines-what-we-see
 - A suite of tools and articles on colour in scientific visualisation https://sciviscolor.org/
 - Colour blindness simulator https://www.color-blindness.com/coblis-color-oblindness-simulator/
@@ -17,7 +16,6 @@ A collection of resources that may be of use for geoscience data visualisation.
 - Colour maps on seismic sections (includes semi-transparent) https://github.com/lperozzi/Seismic_colormaps *
 
 ## 3D visualisation
-
 - Paraview (VTK) https://www.paraview.org/
 - PyVista for 3D and mesh (also VTK) https://docs.pyvista.org/ *
 - Point cloud visualisation tool https://polyscope.run/py/ *
@@ -35,7 +33,7 @@ These are mostly wrappers around the standard Python plotting tool matplotlib (m
     - https://link.medium.com/ZvdW7rTDL5 interactive maps
     - https://link.medium.com/eK7qYSYDL5 categorical data
     - https://towardsdatascience.com/extraordinary-data-visualisation-circular-chart-fe2d835ef929 circular plots
-- Javascript plotting tool https://d3js.org/
+- JavaScript plotting tool https://d3js.org/ *
 
 ## Matplotlib
 - Best intro to mpl plt and ax methods https://towardsdatascience.com/clearing-the-confusion-once-and-for-all-fig-ax-plt-subplots-b122bb7783ca
@@ -49,6 +47,10 @@ These are mostly wrappers around the standard Python plotting tool matplotlib (m
     - https://trichopterology.blogspot.com/2017/05/using-inkscape-for-biological.html
     - https://www.library.auckland.ac.nz/search/inkscape
 
+## Inspiration
+- https://urbanmobilityindex.here.com/ beautiful interactive graphics
+- https://www.cleverfranke.com/work/chicago-s-mobility more wow vis
+- https://informationisbeautiful.net/ collection of infographics
 ## Tutorials from the web
 - Finessing graphics https://ourcodingclub.github.io/tutorials/dataviz-beautification/
 
@@ -60,9 +62,3 @@ Colour maps in mpl
     color = cm.rainbow(np.linspace(0, 1, len(countries))))
     # length can be an object or get python to test length
 ```
-
-## Inspiration
-
-- https://urbanmobilityindex.here.com/ beautiful interactive graphics
-- https://www.cleverfranke.com/work/chicago-s-mobility more wow vis
-- https://informationisbeautiful.net/ collection of infographics
